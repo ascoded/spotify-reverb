@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Counter() {
   const [count, setCount] = useState(0);
@@ -7,17 +7,10 @@ export default function Counter() {
     <button
       onClick={() => setCount(count + 1)}
       style={{
-        position: 'fixed',
-        top: '10px',
-        right: '10px',
-        zIndex: 9999,
-        padding: '10px',
-        backgroundColor: 'skyblue',
-        border: 'none',
-        borderRadius: '5px',
-        fontSize: '16px',
-        cursor: 'pointer'
+        background: "auto",
+        zIndex: 999,
       }}
+      className="text-lg bg-red-500 fixed top-10 right-10 p-2 rounded-md"
     >
       Count: {count}
     </button>

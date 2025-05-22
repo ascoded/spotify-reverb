@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Counter from './Counter';
+import './index.css';
 
 // Create a container div to hold the React app
 const appContainer = document.createElement('div');
