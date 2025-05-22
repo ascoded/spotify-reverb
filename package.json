@@ -1,0 +1,39 @@
+{
+  "name": "spotify-reverb",
+  "version": "0.1.0",
+  "description": "Building a spotify extension for the slowed-reverb fans.",
+  "keywords": [
+    "reverbify",
+    "spotify",
+    "extension",
+    "slowed",
+    "reverb"
+  ],
+  "homepage": "https://github.com/ascoded/spotify-reverb#readme",
+  "bugs": {
+    "url": "https://github.com/ascoded/spotify-reverb/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascoded/spotify-reverb.git"
+  },
+  "license": "ISC",
+  "author": "ascoded, bd2720",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

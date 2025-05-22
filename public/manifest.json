@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Google Counter Button",
+  "version": "1.0",
+  "description": "Injects a counter button into Google homepage.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["assets/contentScript.js"]
+    }
+  ],
+  "host_permissions": ["https://www.google.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
